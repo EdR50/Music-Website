@@ -1,0 +1,107 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Work Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(315deg, #838a82 0%, #869988 74%);
+
+}
+
+/* Contenedor de los elementos del Login */
+.center {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+  margin-top: 5%;
+}
+
+.container {
+  width: 70%;
+  height: 700px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+/* Imagenes y estilos */
+.img {
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.img img {
+  display: block;
+  margin: auto 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Formulario y estilos */
+.form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.form input {
+  margin: 10px;
+  border: none;
+  width: 250px;
+  height: 50px;
+  outline: none;
+  border-bottom: 1px solid rgb(120, 182, 125);
+}
+
+.button {
+  background-color: rgb(120, 182, 125);
+  width: 190px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: none;
+  color: white;
+  margin: 12px;
+  outline: none;
+}
+
+/* complement */
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+
+/* Text formatting */
+
+h1, h2, h3, h4, h5, h6  {
+  font-family: 'Crimson Text', serif;
+  letter-spacing: 5px;
+ }

@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Martel', serif;
+  font-weight: 400;
+}
+
+body {
+  line-height: 1.5;
+  color: #333;
+  /* overflow: hidden; */
+}
+/* nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #00000046;
+  z-index: 3;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 25px;
+  padding: 10px;
+} */
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.content {
+  max-width: 40rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.header-video video {
+  position: absolute;
+  left: 50%; 
+  top: 50%;
+  transform: translate(-50%, -50%); 
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.header-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000000a9;
+  z-index: 1;
+  opacity: .85;
+}
+
+.header-c{
+  z-index: 2;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-c h1 {
+  font-size: 45px;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(132, 185, 137);
+  display: block;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  box-shadow: black;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.button:hover {
+  width: 130px;
+  height: 50px;
+}
+
+
+/* CONFIGURACION DE FUENTES :D */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 100;
+  padding: 5px;
+}
+
+/* title Animation */
+.ml12 .letter {
+  display: inline-block;
+}
+
+/* Responsice web desing, moviles */
+@media only screen and (max-width: 600px) {
+
+video {
+display: none;
+}
+
+body {
+background-image: url('./Img/mobileBG.gif');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+}

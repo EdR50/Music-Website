@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    overflow-y: hidden;
+}
+
+body {
+    /* background-color: rgb(26, 27, 51) */
+   background-color: rgb(238, 239, 245);    
+}
+
+/* coding header */
+.Encabezado {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Encabezado .logo {
+    flex: 1;
+    /* border-right: 1px solid rgba(0, 0, 0, 0.137); */
+}
+
+.Encabezado .searchbar {
+    flex: 1;
+
+}
+
+.Encabezado .profile {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.searchbar input {
+    width: 500px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+   background-color: rgb(238, 239, 245)
+
+}
+
+.main-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    height: 80vh;
+}
+
+
+aside {
+    flex: 1;
+    height: 80vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.137);
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-self: center;
+    align-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px;
+    margin: 19px;
+    color: black;
+}
+i {
+    margin-right: 5px;
+}
+.content {
+    flex: 10;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.album-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-self: center;
+}
+
+.album-container img {
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+
+.artist img {
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    margin: 25px
+}
+
+
+.audioplayer {
+    display: flex;
+    flex: 1;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    /* background-color: rgb(231, 233, 235); */
+    border: 1px solid rgba(0, 0, 0, 0.090);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.art img {
+    width: 90px;
+    height: 90px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.allbutton img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.allbutton img:active {
+  width: 25px;
+  height: 25px;
+  transition-duration: 0.2s
+}
+
+#seek-bar {
+    flex: 0.5;
+    width: 250px;
+    height: 5px;
+    background-color: rgba(36, 33, 33, 0.671);
+    display: flex;
+    border-radius: 50px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+#fill {
+    height: 5px;
+    background-color: rgb(133, 195, 61);
+    border-radius: 20px;
+}
+
+#handle {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(133, 195, 61);
+    border-radius: 50%;
+    margin-left: -5px;
+    transform: scale(2);
+}
+
+/* TEXT */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Crimson Text', serif;
+    letter-spacing: 1px;
+}
+
+/* shadow */
+.card-1:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card-2 {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card-3 {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card-4 {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card-5 {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}

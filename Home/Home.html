@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="img/iconcasette.jpeg" sizes="64x64">
+    <link rel="stylesheet" href="./Stylepagina.css">
+    <link rel="stylesheet" href="./webfonts/all.css">
+    <link rel="stylesheet" href="./hover-min.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
+
+    <title>Home</title>
+</head> 
+    <body>
+        
+        <header class="Encabezado">
+            <div class="logo">
+                <h3>Music4All</h3>
+            </div>
+            
+            <div class="searchbar">
+                <input class="txt" type="text" placeholder="Search songs, albums, artist" data-intro="Puedes buscar canciones disponibles." data-step="2">
+            </div>   
+            <div class="profile">   
+                <a id="user"> <i class="fas fa-user"></i >Usuario</a>
+            </div>
+        </header>
+        
+        
+        <div class="main-container">
+                <aside>
+                        <nav>
+                            <a class="hvr-grow" href=""><i class="far fa-file-audio"></i> Albumes</a>
+                            <a class="hvr-grow" href=""><i class="fas fa-user-friends"></i>Artistas</a>
+                            <a class="hvr-grow" href=""><i class="fas fa-stream"></i>Playlist</a>
+                            <a class="hvr-grow" href=""><i class="fas fa-search"></i>Explore</a>
+                            <a class="hvr-grow" href=""><i class="fas fa-bookmark"></i>Favoritos</a>
+                        </nav>
+                </aside>
+            <div class="content">
+                <div class="slide">
+                    <h2>Top canciones para ti.</h2>
+                </div>
+
+                <div id="albums" class="album-container">
+                        <img id="fall" class="card-1 card-3 hvr-grow" src="./img/album.jpg" alt="">
+                        <img id="Xsong" class="card-1 card-3 hvr-grow" src="./img/X.png" alt="">
+                        <img id="K" class="card-1 card-3 hvr-grow" src="./img/Cigarettes_After_Sex.png" alt="">
+                        <img id="NF" class="card-1 card-3 hvr-grow" src="./img/nf.jpg" alt="">
+                        <img id="waiting" class="card-1 card-3 hvr-grow" src="./img/ivebeen.jpg" alt="">
+                        <!-- <img id="waiting" class="card-1 card-3 hvr-grow" src="./img/ivebeen.jpg" alt=""> -->
+                        <!-- <img id="waiting" class="card-1 card-3 hvr-grow" src="./img/ivebeen.jpg" alt="">
+                        <img id="waiting" class="card-1 card-3 hvr-grow" src="./img/ivebeen.jpg" alt="">
+                        <img id="waiting" class="card-1 card-3 hvr-grow" src="./img/ivebeen.jpg" alt=""> -->
+
+                </div>
+                
+                <div class="artist">    
+                    <h2>Artistas para ti</h2>
+                    <img class="card-1 card-2 hvr-hang" src="./img/Cigarettes_After_Sex.png" alt="">
+                    <img class="card-1 card-2 hvr-hang" src="./img/drake.jpg" alt="">
+                    <img class="card-1 card-2 hvr-hang" src="./img/camilo.jpg" alt="">
+                    <img class="card-1 card-2 hvr-hang" src="./img/metallica.jpg" alt="">
+                    <img class="card-1 card-2 hvr-hang" src="./img/snop.jpg" alt="">
+                    
+                </div>   
+            </div>
+            </div>
+    <footer>
+        <div class="audioplayer">
+            <!-- imagen del cover -->
+            <div class="art">
+              <img id="album" src="img/album.jpg"> </img>
+            </div>
+  
+            <div id="current"></div>
+            <div id="seek-bar">
+              <div id="fill"></div>
+              <div id="handle"></div>
+              </div>
+
+              <div class="allbutton">
+              <img class="btnback" id="btnback" src="./img/arrows.png"></img>
+              <img class="btnplay" id="btnplay" src="./img/play.png""></img>
+              <img class="btnnext" id="btnnext"  src ="./img/forward.png"></img>   
+              </div>
+          </div>
+    </footer>
+
+    <!-- Javascript files -->
+    <script src="audioplayer.js" type="text/javascript"></script> 
+</body>
+</html>
+
+
+
+
