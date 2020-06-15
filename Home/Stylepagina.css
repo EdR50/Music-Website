@@ -42,8 +42,7 @@ body {
     border: none;
     outline: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.137);
-   background-color: rgb(238, 239, 245)
-
+    background-color: rgb(238, 239, 245);
 }
 
 .main-container {
@@ -74,6 +73,7 @@ nav a {
     padding: 5px;
     margin: 19px;
     color: black;
+
 }
 i {
     margin-right: 5px;
@@ -116,7 +116,6 @@ i {
     justify-content: space-between;
     align-items: center;
     margin: 10px;
-    /* background-color: rgb(231, 233, 235); */
     border: 1px solid rgba(0, 0, 0, 0.090);
     border-radius: 25px;
     padding: 10px;
@@ -165,6 +164,30 @@ i {
     border-radius: 50%;
     margin-left: -5px;
     transform: scale(2);
+}
+
+@media screen and (max-width: 1300px) {
+.album-container img{
+    width: 150px;
+    height: 150px;
+    }
+
+.artist img {
+    width: 125px;
+    height: 125px;
+    }
+
+aside {
+    flex: 1.5;
+    height: 70vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.137);
+}
+
+.searchbar input {
+    width: 425px;
+    height: 45px;        
+}
+
 }
 
 /* TEXT */
