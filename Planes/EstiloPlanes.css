@@ -233,9 +233,9 @@ ul a {
     font-weight: 400;
     color: #9f9f9f;
     font-size: 15px;
-  }
-  
-  .Paquete {
+}
+
+.Paquete {
     box-sizing: border-box;
     width: 301px;
     height: 380px;
@@ -249,36 +249,38 @@ ul a {
     transition: margin-top .5s linear;
     position: relative;
     margin-right: 11px;
-  }
-  .Paquete:hover {
+}
+
+.Paquete:hover {
     margin-top: -30px;
     -webkit-transition: margin-top .3s linear;
     transition: margin-top .3s linear;
-  }
-  
-  .Nombre {
+}
+
+.Nombre {
     color: #565656;
     font-weight: 300;
     font-size: 3rem;
     margin-top: -5px;
-  }
-  
-  .Precio {
+}
+
+.Precio {
     margin-top: 7px;
     font-weight: bold;
-  }
-  .Precio::after {
+}
+
+.Precio::after {
     content: " / Mensual";
     font-weight: normal;
-  }
-  
-  hr {
+}
+
+hr {
     background-color: #dedede;
     border: none;
     height: 1px;
-  }
-  
-  .Prueba {
+}
+
+.Prueba {
     font-size: .9rem;
     font-weight: 600;
     padding: 2px 21px 2px 21px;
@@ -289,22 +291,21 @@ ul a {
     background-color: white;
     position: relative;
     bottom: -20px;
-  }
-  
-  ul {
+}
+
+ul {
     list-style: none;
     padding: 0;
     text-align: left;
     margin-top: 29px;
-  }
-  
-  li {
+}
+
+li {
     margin-bottom: 15px;
-  }
-  li:before {
+}
+
+li:before {
     font-size: 1.3rem;
     color: #33c4b6;
     margin-right: 3px;
-  }
-  
-  
+}
