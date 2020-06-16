@@ -24,8 +24,9 @@ btnplay.addEventListener(
     song.src = playlist[count]
     if (song.paused) {
       song.play()
+      btnplay.src = "./img/pause.png"
       console.log(song)
-    } else {
+    } else if(song.played) {
       song.pause()
     }
   })
