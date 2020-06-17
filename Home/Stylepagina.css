@@ -166,28 +166,15 @@ i {
     transform: scale(2);
 }
 
-@media screen and (max-width: 1300px) {
-.album-container img{
-    width: 150px;
-    height: 150px;
-    }
-
-.artist img {
-    width: 125px;
-    height: 125px;
-    }
-
-aside {
-    flex: 1.5;
-    height: 70vh;
-    border-right: 1px solid rgba(0, 0, 0, 0.137);
-}
-
-.searchbar input {
-    width: 425px;
-    height: 45px;        
-}
-
+.volume {
+  -webkit-appearance: none; 
+  appearance: none;
+  width: 250px; 
+  height: 5px; 
+  background: rgba(26, 1, 1, 0.199); 
+  outline: none; 
+  opacity: 0.7;
+  margin: 0; 
 }
 
 /* TEXT */

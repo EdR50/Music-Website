@@ -18,9 +18,7 @@ const art = () => {
   album.src = covers[count]
 }
 
-btnplay.addEventListener(
-  "click",
-  (play = () => {
+btnplay.addEventListener("click",(play = () => {
     song.src = playlist[count]
     if (song.paused) {
       song.play()
@@ -32,9 +30,7 @@ btnplay.addEventListener(
   })
 )
 
-btnnext.addEventListener(
-  "click",
-  (next = () => {
+btnnext.addEventListener("click",(next = () => {
     playlist[count++]
     play()
     art()
@@ -108,3 +104,13 @@ song.addEventListener(
   },
   false
 )
+
+// Barra de volumen
+const volume = document.getElementById('volume')
+
+volume.oninput = e => {
+  let vol = e.target.value
+  console.log(vol)
+  song.volume = vol
+}
+
