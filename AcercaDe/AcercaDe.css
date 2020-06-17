@@ -224,8 +224,8 @@ ul a {
     }
 }
 
-.Contenedor img{
-    display: grid;
-    
+.Contenedor {
+    display: flex;
     align-items: center;
+    justify-content: center;
 }

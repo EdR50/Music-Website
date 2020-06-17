@@ -4,7 +4,7 @@ const password = document.getElementById('password')
 const btnHome = document.getElementById('btn')
   
 const correct = () => {
-     if (name.value == "admin" && password.value == 12345) {
+     if (name.value == "usuario1" && password.value == 12345) {
        window.location = "../Home/Home.html"
      }
      else {
