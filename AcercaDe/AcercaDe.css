@@ -228,4 +228,23 @@ ul a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -150px;
+}
+
+.Contenido p{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center; 
+    margin-top: -8px;
+}
+
+.Imagen {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.Imagen img{
+    width: 10%;
+    height: 20%;
 }
