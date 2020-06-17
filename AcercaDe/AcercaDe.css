@@ -223,3 +223,9 @@ ul a {
         pointer-events: none;
     }
 }
+
+.Contenedor img{
+    display: grid;
+    
+    align-items: center;
+}
