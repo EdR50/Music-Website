@@ -31,7 +31,7 @@ html, body {
 
 /* Imagenes y estilos */
 .img {
-  height: 100%;
+  height: auto;
   width: 100%;
   flex: 1;
   /* display: flex; */
@@ -105,3 +105,16 @@ h1, h2, h3, h4, h5, h6  {
   font-family: 'Crimson Text', serif;
   letter-spacing: 5px;
  }
+
+ @media only screen and (min-width: 1024px){
+  /* insert styles here */
+  .container{
+    width: 90%;
+    height: auto;
+  }
+  .center{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+  }
+}
