@@ -183,7 +183,7 @@ aside i.fa {
 }
 
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1500px) {
 aside {
     flex: 0 1 50px;
     
