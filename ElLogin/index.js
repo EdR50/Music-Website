@@ -10,8 +10,7 @@ const correct = () => {
      else {
          console.log('got an error :c')
          alert('Hola, usuario o contraseña incorrectos')
-         alert("Usuario: admin, contraseña: 12345")
-
+         alert("Usuario: usuario1, contraseña: 12345")
      }
 }
 
