@@ -117,8 +117,8 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 
-/* Responsice web desing, moviles */
-@media only screen and (max-width: 600px) {
+/* Responsive web desing, moviles */
+@media only screen and (max-width: 500px) {
 
 video {
 display: none;
@@ -130,4 +130,7 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 
+.header-c h1 {
+  font-size: 25px;
+}
 }
