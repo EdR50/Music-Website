@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Responsive web desing, moviles */
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 350px) and (max-width: 500px) {
 
 video {
 display: none;
@@ -130,7 +130,31 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 
+.header > .header-c{
+  margin-left: 8%;
+}
 .header-c h1 {
-  font-size: 25px;
+  font-size: 22px;
 }
 }
+
+/*Iphone 5 y celulares con resolucion menor a 350*/
+@media only screen and (max-width: 350px) {
+
+  video {
+  display: none;
+  }
+  
+  body {
+  background-image: url('./Img/mobileBG.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  
+  .header > .header-c{
+    margin-left: 5%;
+  }
+  .header-c h1 {
+    font-size: 20px;
+  }
+  }
