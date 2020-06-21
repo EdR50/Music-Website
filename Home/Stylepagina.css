@@ -209,22 +209,18 @@ h6 {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
-@media only screen and (min-width: 1024px){
-    .Encabezado{
-        width: 100%;
-    }
-    .aside{
-        height: 100%;
-    }
-    .audioplayer{
-        height: 100px;
+/* @media screen and (max-width: 400px) { 
+
+    body {
+        overflow: auto;
     }
 
-    .art{
-        width: 40px;
-        height: 40px;
-        margin-left: 5px;
-        border-radius: 10px;
-        margin-right: 25px;
+    .main-container {
+        display: flex;
+        flex-flow: column wrap;
+        overflow: auto;
     }
-}
+    .content {
+        display: block;
+    }
+} */
