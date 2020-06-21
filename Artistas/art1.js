@@ -97,7 +97,7 @@ list.addEventListener("click", (e) => {
       break
 
     case "last":
-        song.src = "./musica/MusicaMetallica/Metallica - One.mp3"
+        song.src = "./musica/MusicaMetallica/Metallica - The Unforgiven.mp3"
         album.src = "./img/metallica1.jpg"
         song.play()
         break
