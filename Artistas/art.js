@@ -72,7 +72,7 @@ list.addEventListener("click", (e) => {
       break
 
     case "sn2":
-      song.src = "./musica/Musica1/free.mp3"
+      song.src = "./musica/Musica1/Snoop Dogg - Young, Wild & Free.mp3"
       album.src =  "./img/snoop.png"
       song.play()
       break
