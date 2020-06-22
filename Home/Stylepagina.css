@@ -75,13 +75,14 @@ nav a {
     color: black;
 
 }
+
 i {
     margin-right: 5px;
 }
 .content {
     flex: 10;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -209,18 +210,33 @@ h6 {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
-/* @media screen and (max-width: 400px) { 
+ @media screen and (max-width: 1024px) { 
 
-    body {
-        overflow: auto;
+body {
+        overflow: hidden;
     }
 
-    .main-container {
-        display: flex;
-        flex-flow: column wrap;
-        overflow: auto;
-    }
-    .content {
-        display: block;
-    }
-} */
+    
+aside {
+    flex: 2;
+    height: 75vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.137);
+}
+.main-container {
+    height: 65vh;
+}
+
+.album-container img{
+    width: 100px;
+    height: 100px;
+}
+
+.artist img{
+    width: 100px;
+    height: 100px;
+
+}
+.searchbar input{
+    width: 250px;
+}
+} 
