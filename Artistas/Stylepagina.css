@@ -212,7 +212,7 @@ li {
 }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) and (max-width: 800px){
   body {
     grid-template-columns: 40px 1fr;
     grid-template-rows: 1fr 90px;
@@ -224,6 +224,9 @@ li {
     justify-items: center;
     align-items: center;
   }
+  ul{
+    min-height: 680px;
+  }
   .aside i {
     display: block;
   }
@@ -233,7 +236,7 @@ li {
   }
 }
 
-@media screen and (min-width: 350px) and (max-width: 600px) {
+@media screen and  (max-width: 600px) and (min-width: 350px){
   body{
    overflow-x: hidden;
   }
@@ -245,8 +248,7 @@ li {
   .Cabecera > .Music1 {
     text-align: center;
   }
-
-  .mobiles{
+  .texto{
     display: none;
   }
   
@@ -254,6 +256,8 @@ li {
     width: 150px;
   }
 }
+/*Iphone 6/7/8 plus*/
+
 
 @media screen and (max-width: 350px) {
   body{
@@ -273,7 +277,7 @@ li {
      font-size: 10px; ;
    }
  
-   .mobiles{
+   .texto{
      display: none;
    }
    
