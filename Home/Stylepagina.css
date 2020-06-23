@@ -276,22 +276,25 @@ aside {
     height: 50px;
     margin-left: 0;
 }
+
 .artist {
     display: flex;
     flex-flow: column wrap;
-    margin-top: 100px;
+    margin-top: 50px;
 }
+
 .album-container {
     flex-flow: column wrap;
     height: 550px;
-    margin-top: 25px;
-
+    margin-top: 0px;
 }
+
 .album-container img{
     width: 100px;
-    height: 100px;
+    height:100px;
 
 }
+
 .artist img{
     width: 100px;
     height: 100px;
