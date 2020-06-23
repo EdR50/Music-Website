@@ -210,7 +210,7 @@ h6 {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
- @media screen and (min-width: 1024px) { 
+ @media screen and (min-width: 768px) and (max-width: 1200px){ 
 
 body {
         overflow: hidden;
@@ -240,3 +240,98 @@ aside {
     width: 250px;
 }
 } 
+
+ @media screen and (max-width: 500px) and (min-width: 300px) {
+     body {
+         /* background-color: lightgreen; */
+     }
+
+     aside {
+         flex: 3;
+         height: 70vh;
+     }
+     aside a {
+         font-size: 10px;
+     }
+
+.main-container {
+    height: 70vh;
+}
+
+.allbutton{
+    display: flex;
+    padding: 1px;
+}
+
+.allbutton img {
+    width: 50px;
+    height: 30px;
+    margin: 2px;
+    flex: 1;
+
+}
+.art {
+    width: 80px;
+}
+.art img {
+    width: 50px;
+    height: 50px;
+    margin-left: 0;
+}
+.artist {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 100px;
+}
+.album-container {
+    flex-flow: column wrap;
+    height: 550px;
+    margin-top: 25px;
+
+}
+.album-container img{
+    width: 100px;
+    height: 100px;
+
+}
+.artist img{
+    width: 100px;
+    height: 100px;
+}
+
+#seek-bar {
+    width: 250px;
+    min-width: 100px;
+    margin: 5px;
+}
+
+#fill {
+    height: 1px;
+    background-color: rgb(133, 195, 61);
+    border-radius: 20px;
+}
+
+#handle {
+    width: 5px;
+    height: 5px;
+    background-color: rgb(133, 195, 61);
+    border-radius: 50%;
+    margin-left: -5px;
+    transform: scale(2);
+}
+
+.volume {
+    display: none;
+}
+.volume-content i {
+      visibility: hidden;
+}
+
+#current {
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+}
+
