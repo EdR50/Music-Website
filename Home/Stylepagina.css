@@ -210,7 +210,8 @@ h6 {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
- @media screen and (min-width: 768px) and (max-width: 1200px){ 
+
+ @media screen and (min-width: 1024px) and (max-width: 1200px){ 
 
 body {
         overflow: hidden;
@@ -241,10 +242,7 @@ aside {
 }
 } 
 
- @media screen and (max-width: 500px) and (min-width: 300px) {
-     body {
-         /* background-color: lightgreen; */
-     }
+ @media screen and (max-width: 700px) and (min-width: 300px) { 
 
      aside {
          flex: 3;
@@ -335,3 +333,19 @@ aside {
 
 }
 
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    aside {
+        flex: 2.5;
+    }
+    
+    .album-container img{
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+
+    .artist img{
+        width: 100px;
+        height: 100px;
+    }
+}
