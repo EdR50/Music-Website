@@ -81,10 +81,6 @@ ul a {
     background-image: url("Img/banca-en-linea.png");
 }
 
-.menu ul li.opciones {
-    background-image: url("Img/configuraciones.png");
-}
-
 .menu ul li.acerca {
     background-image: url("Img/acerca-de.png");
 }
@@ -211,7 +207,7 @@ ul a {
 
     .menu ul li {
         padding: 0.7em 0.7em 0.7em 3em;
-        font-size: 1.2em;
+        font-size: 0.9em;
     }
 
     .menu:focus {
