@@ -10,7 +10,7 @@ const xsong = document.getElementById("Xsong")
 let song = new Audio()
 let count = 0
 let playlist = ["./music/audio.mp3","./music/4u.mp3" , "./music/audio2.mp3" ,  "./music/K.mp3"]
-let covers = ["img/album.jpg", "./img/img.jpg", "", "./img/Cigarettes_After_Sex.png"]
+let covers = ["img/album.jpg", "./img/img.jpg", "./img/ivebeen.jpg", "./img/Cigarettes_After_Sex.png"]
 song.src = playlist[count]
 
 // FUNCIONES
