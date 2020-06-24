@@ -81,10 +81,6 @@ ul a {
     background-image: url("Img/banca-en-linea.png");
 }
 
-.menu ul li.opciones {
-    background-image: url("Img/configuraciones.png");
-}
-
 .menu ul li.acerca {
     background-image: url("Img/acerca-de.png");
 }
