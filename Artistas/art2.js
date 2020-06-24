@@ -72,31 +72,31 @@ list.addEventListener("click", (e) => {
       break
 
     case "drake2":
-      song.src = "./musica/Musica2/Future - Life Is Good.mp3"
+      song.src = "./Musica/Musica2/Future - Life Is Good.mp3"
       album.src =  "./img/Drake.png"
       song.play()
       break
 
     case "drake3":
-      song.src = "./musica/Musica2/Drake - God's Plan.mp3"
+      song.src = "./Musica/Musica2/Drake - God's Plan.mp3"
       album.src =  "./img/Drake.png"
       song.play()
       break
 
     case "drake4":
-      song.src = "./musica/Musica2/Drake - In My Feelings.mp3"
+      song.src = "./Musica/Musica2/Drake - In My Feelings.mp3"
       album.src =  "./img/Drake.png"
       song.play()
       break
 
     case "drake5":
-      song.src = "./musica/Musica2/Drake - Hotline Bling.mp3"
+      song.src = "./Musica/Musica2/Drake - Hotline Bling.mp3"
       album.src =  "./img/Drake.png"
       song.play()
       break
 
     case "drake6":
-      song.src = "./musica/Musica2/Drake - Chicago Freestyle.mp3"
+      song.src = "./Musica/Musica2/Drake - Chicago Freestyle.mp3"
       album.src =  "./img/Drake.png"
       song.play()
       break

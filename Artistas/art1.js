@@ -72,32 +72,32 @@ list.addEventListener("click", (e) => {
       break
 
     case "Moth":
-      song.src = "./musica/MusicaMetallica/Metallica - Moth Into Flame.mp3"
+      song.src = "./Musica/MusicaMetallica/Metallica - Moth Into Flame.mp3"
       album.src = "./img/metallica1.jpg"
       song.play()
       break
 
     case "Atlas":
-      song.src = "./musica/MusicaMetallica/Metallica - Atlas, Rise!.mp3"
+      song.src = "./Musica/MusicaMetallica/Metallica - Atlas, Rise!.mp3"
       album.src = "./img/metallica1.jpg"
       song.play()
       break
 
     case "Halo":
-      song.src = "./musica/MusicaMetallica/Metallica - Halo On Fire.mp3"
+      song.src = "./Musica/MusicaMetallica/Metallica - Halo On Fire.mp3"
       album.src = "./img/metallica1.jpg"
       song.play()
       break
 
 
     case "One":
-      song.src = "./musica/MusicaMetallica/Metallica - One.mp3"
+      song.src = "./Musica/MusicaMetallica/Metallica - One.mp3"
       album.src = "./img/metallica1.jpg"
       song.play()
       break
 
     case "last":
-        song.src = "./musica/MusicaMetallica/Metallica - The Unforgiven.mp3"
+        song.src = "./Musica/MusicaMetallica/Metallica - The Unforgiven.mp3"
         album.src = "./img/metallica1.jpg"
         song.play()
         break

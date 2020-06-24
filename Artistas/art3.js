@@ -72,31 +72,31 @@ list.addEventListener("click", (e) => {
       break
 
     case "r2":
-      song.src = "./musica/Musica3/sugar.mp3"
+      song.src = "./Musica/Musica3/sugar.mp3"
       album.src =  "./img/Robin.png"
       song.play()
       break
 
     case "r3":
-      song.src = "./musica/Musica3/wave.mp3"
+      song.src = "./Musica/Musica3/wave.mp3"
       album.src =  "./img/Robin.png"
       song.play()
       break
 
     case "r4":
-      song.src = "./musica/Musica3/ox.mp3"
+      song.src = "./Musica/Musica3/ox.mp3"
       album.src =  "./img/Robin.png"
       song.play()
       break
 
     case "r5":
-      song.src = "./musica/Musica3/headlight.mp3"
+      song.src = "./Musica/Musica3/headlight.mp3"
       album.src =  "./img/Robin.png"
       song.play()
       break
 
     case "r":
-      song.src = "./musica/Musica3/player.mp3"
+      song.src = "./Musica/Musica3/player.mp3"
       album.src =  "./img/Robin.png"
       song.play()
       break
