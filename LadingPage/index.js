@@ -30,7 +30,7 @@ anime
 
 const gologin = () => {
   try {
-    window.location = "../ElLogin/inicioSesion.html"
+    window.location = "../ElLogin/InicioSesion.html"
   } 
   catch (err) {
     console.log("Got an error in gologin function", err)
